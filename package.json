@@ -1,0 +1,28 @@
+{
+  "name": "markdown-it-fontawesome",
+  "version": "0.1.0",
+  "description": "Markdown-it plugin that adds Font Awesome icons support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunof07/markdown-it-fontawesome.git"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "fontawesome"
+  ],
+  "author": "Nuno Freitas <nunofreitas@gmail.com> (https://github.com/nunof07)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nunof07/markdown-it-fontawesome/issues"
+  },
+  "homepage": "https://github.com/nunof07/markdown-it-fontawesome#readme",
+  "dependencies": {
+    "markdown-it-regexp": "^0.4.0"
+  }
+}
