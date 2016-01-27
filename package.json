@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-fontawesome",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Markdown-it plugin that adds Font Awesome icons support",
   "main": "index.js",
   "scripts": {
