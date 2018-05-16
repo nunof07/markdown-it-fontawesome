@@ -34,7 +34,7 @@ md().use(fa);
 ```
 
 
-### Font Awesome version <= 4 example
+### Font Awesome version 4 example
 
 ```md
 Hello World! :fa-flag:
@@ -58,13 +58,20 @@ Gets converted to:
 
 
 ```md
-x
+Hello World! :fal-flag:
+
+- [:fab-google: Google](https://www.google.com/)
+- [:fab-github: GitHub](https://github.com/)
 ```
 
 gets converted to: 
 
 ```html
-test
+<p>Hello World! <i class="fal fa-flag"></i></p>
+<ul>
+<li><a href="https://www.google.com/"><i class="fab fa-google"></i> Google</a></li>
+<li><a href="https://github.com/"><i class="fab fa-github"></i> GitHub</a></li>
+</ul>
 ```
 
 
