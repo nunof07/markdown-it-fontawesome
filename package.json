@@ -1,10 +1,10 @@
 {
   "name": "markdown-it-fontawesome",
-  "version": "0.2.0",
-  "description": "Markdown-it plugin that adds Font Awesome icons support",
+  "version": "0.3.0",
+  "description": "Markdown-it plugin that adds Font Awesome 5 icons support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,10 @@
   "homepage": "https://github.com/nunof07/markdown-it-fontawesome#readme",
   "dependencies": {
     "markdown-it-regexp": "^0.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "markdown-it": "^8.4.1",
+    "mocha": "^5.1.1"
   }
 }

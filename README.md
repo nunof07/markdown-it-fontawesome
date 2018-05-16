@@ -34,7 +34,7 @@ md().use(fa);
 ```
 
 
-### Example
+### Font Awesome version <= 4 example
 
 ```md
 Hello World! :fa-flag:
@@ -54,6 +54,31 @@ Gets converted to:
 ```
 
 
+### Font Awesome 5+ example
+
+
+```md
+x
+```
+
+gets converted to: 
+
+```html
+test
+```
+
 
 [markdown-it]: https://github.com/markdown-it/markdown-it
 [fontawesome]: https://fortawesome.github.io/Font-Awesome/
+
+
+### Credits 
+
+Original: https://github.com/nunof07
+
+Font awesome 5 support and tests: https://github.com/rjjakes
+
+
+### License
+
+MIT
