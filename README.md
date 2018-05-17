@@ -34,7 +34,7 @@ md().use(fa);
 ```
 
 
-### Example
+### Font Awesome version 4 example
 
 ```md
 Hello World! :fa-flag:
@@ -54,6 +54,38 @@ Gets converted to:
 ```
 
 
+### Font Awesome 5+ example
+
+
+```md
+Hello World! :fal-flag:
+
+- [:fab-google: Google](https://www.google.com/)
+- [:fab-github: GitHub](https://github.com/)
+```
+
+gets converted to: 
+
+```html
+<p>Hello World! <i class="fal fa-flag"></i></p>
+<ul>
+<li><a href="https://www.google.com/"><i class="fab fa-google"></i> Google</a></li>
+<li><a href="https://github.com/"><i class="fab fa-github"></i> GitHub</a></li>
+</ul>
+```
+
 
 [markdown-it]: https://github.com/markdown-it/markdown-it
 [fontawesome]: https://fortawesome.github.io/Font-Awesome/
+
+
+### Credits 
+
+Original: https://github.com/nunof07
+
+Font awesome 5 support and tests: https://github.com/rjjakes
+
+
+### License
+
+MIT
